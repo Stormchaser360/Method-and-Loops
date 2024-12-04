@@ -1,0 +1,33 @@
+<html>
+
+<body>
+    <h2>JS Strings</h2>
+    <p>Basic Methods</p>
+    <script>
+        var str = "AmAzInG";
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith('i'));
+        document.write("<br>");
+        //Test Method-> returns true or false
+        var str = "I learnt About  Methods";
+        var patt = new RegExp("about");
+        var res = patt.test(str);
+        document.write
+    </script>
+    <h2>Numbers</h2>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["10", "21", "13", "43", "15", "65"];
+        var text = "";
+        var i;
+        for (i = 0; i < fruits.length; i++) {
+            text += fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+
+</html>
